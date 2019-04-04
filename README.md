@@ -17,7 +17,8 @@ $username = 'test-account';
 $password = 'test-password';
 $options = [
     'server' => 'owa.example.com',
-    'domain' => 'example',
+    'domain' => 'example', // optional (is added in front of username: example\username)
+    'clientVersion' => 'Exchange2013_SP1' //optional
 ];
 $auth = new \EwsAuthAdapter\Ews($options, $username, $password);
 ```
