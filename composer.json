@@ -1,0 +1,33 @@
+{
+    "name": "somecoding/ews-auth",
+    "description": "provides an Zend Authentication Adapter for EWS",
+    "keywords": [
+        "Dwarfex",
+        "EWS",
+        "OWA",
+        "authentication",
+        "zend"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/Dwarfex/ews-auth",
+    "readme": "README.md",
+    "require": {
+        "ext-soap": "*",
+        "ext-curl": "*",
+        "php-ews/php-ews": "^1.0",
+        "zendframework/zend-authentication": "^2.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dwarfex",
+            "email": "dwarfex@somecoding.de"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "EwsAuthAdapter\\": "src"
+        }
+    }
+}
