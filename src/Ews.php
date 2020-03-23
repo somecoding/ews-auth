@@ -6,9 +6,9 @@ namespace EwsAuthAdapter;
 
 use jamesiarmes\PhpEws\Client;
 use jamesiarmes\PhpEws\Request\GetServerTimeZonesType;
-use Zend\Authentication\Adapter\AbstractAdapter;
-use Zend\Authentication\Adapter\ValidatableAdapterInterface;
-use Zend\Authentication\Result as AuthenticationResult;
+use Laminas\Authentication\Adapter\AbstractAdapter;
+use Laminas\Authentication\Adapter\ValidatableAdapterInterface;
+use Laminas\Authentication\Result as AuthenticationResult;
 use Exception;
 
 class Ews extends AbstractAdapter
@@ -36,7 +36,7 @@ class Ews extends AbstractAdapter
     }
 
     /**
-     * Returns the array of arrays of Zend\Ldap\Ldap options of this adapter.
+     * Returns the array of arrays of Ews options of this adapter.
      *
      * @return array|null
      */
@@ -46,10 +46,10 @@ class Ews extends AbstractAdapter
     }
 
     /**
-     * Sets the array of arrays of Zend\Ldap\Ldap options to be used by
+     * Sets the array of arrays of Ews options to be used by
      * this adapter.
      *
-     * @param array $options The array of arrays of Zend\Ldap\Ldap options
+     * @param array $options The array of arrays of Ews options
      * @return self Provides a fluent interface
      */
     public function setOptions($options)

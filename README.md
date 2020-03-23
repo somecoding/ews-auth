@@ -1,7 +1,7 @@
 
 # EWS-Authentication Adapter
 
-This is an EWS authentication adapter for zendframework/zend-authentication. It may be used to authenticate against a OWA / EWS System. 
+This is an EWS authentication adapter for laminas/laminas-authentication. It may be used to authenticate against a OWA / EWS System. 
 It might be useful for you when you have an external application with users from a AD-domain and an LDAP server is not available.
 
 ## How to install
